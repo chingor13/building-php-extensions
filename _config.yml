@@ -1,4 +1,5 @@
 # Site configuration
+
 domain: "http://php.chingr.com"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://php.chingr.com/" # the base hostname & protocol for your site

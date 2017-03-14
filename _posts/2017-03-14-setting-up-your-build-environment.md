@@ -3,6 +3,7 @@ layout: post
 title:  "Setting Up Your Build Environment"
 date:   2017-03-14 09:12:00 -0800
 categories: php php7 extensions docker
+comments: true
 ---
 
 When building a PHP extension, we must consider what version of PHP we would like to support. In most cases, we will want to support multiple flavors of PHP. For each of these flavors of PHP, we (or the developer) will have to compile the extension.
