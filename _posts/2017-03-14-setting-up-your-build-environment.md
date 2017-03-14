@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting Up Your Build Environment"
 date:   2017-03-14 09:12:00 -0800
-categories: php php7 extensions docker
+categories: docker
 comments: true
 ---
 

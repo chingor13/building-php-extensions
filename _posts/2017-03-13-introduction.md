@@ -2,7 +2,6 @@
 layout: post
 title:  "Introduction to PHP 7 Extensions"
 date:   2017-03-13 21:35:22 -0800
-categories: php php7 extensions
 ---
 
 This blog series is intended to document how to build a C extension for PHP 7.0/7.1.

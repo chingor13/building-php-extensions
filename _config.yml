@@ -28,3 +28,11 @@ gems: ['jekyll-paginate']
 # Pagination
 paginate: 5
 paginate_path: /archive/page:num
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      categories: php php7 extensions
