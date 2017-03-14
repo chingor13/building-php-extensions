@@ -3,7 +3,7 @@ domain: "http://php.chingr.com"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://php.chingr.com/" # the base hostname & protocol for your site
 permalink: /:title/
-basecss:
+basecss: /css/main.css
 # Theme specific configuration
 author: chingor
 title: Building PHP 7 Extensions
