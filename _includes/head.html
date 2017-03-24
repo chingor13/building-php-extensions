@@ -20,20 +20,7 @@
   <link rel="canonical" href="{% if page.title %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% else %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endif %}"/>
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}"/>
 
-  <!-- Favicons -->
-  <link rel="shortcut icon" href="{{ site.favicon }}">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-config" content="/assets/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
-
   <!-- Styles -->
-  {% if site.basecss %}
-    <link rel="stylesheet" href="{{ site.basecss }}">
-  {% else %}
-    <style type="text/css">
-      {% include css/main.css %}
-    </style>
-  {% endif %}
-
+  <link rel="stylesheet" href="{{ site.basecss }}">
 
 </head>
